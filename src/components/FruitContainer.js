@@ -28,6 +28,8 @@ class FruitContainer extends Component {
 
 
     render(){
+        console.log(this.state.fruitsToDisplay)
+        console.log(this.props.fruits)
         // Inside of Input Component, to access props, I will say props.value
         // Inside of List Component, to access props, I will say props.fruits
         return(
